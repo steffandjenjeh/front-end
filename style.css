@@ -1,0 +1,188 @@
+/* Стили обнуления для сайта  */
+*{
+  margin: 0;
+}
+
+
+/* Общие стили для сайта  */
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.header{
+  background-color: #252527;
+}
+
+.container{
+width: 1000px;
+margin: 0 auto;
+}
+
+h1{
+  color: #4b13e4; 
+  font-size: 80px; 
+}
+
+h6{
+    color: #b62e9f;
+font-size: 30px;
+}
+
+img{
+    border-radius: 20px;
+    width: 400px;
+}
+
+p{
+  color:rgb(207, 6, 6)
+}
+
+
+/* --- Menu --- */
+
+.menu{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 20px 0px 20px 0px;
+}
+
+.menu__link{
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.contacts-button{
+  background-color: rgb(189, 95, 95);
+  color: rgb(54, 218, 4);
+
+  transition: 2s;
+}
+
+.contacts-button:hover{
+  background-color: rgb(54, 218, 4);
+  color: rgb(189, 95, 95);
+  transition: 2s;
+}
+
+
+
+/* --- First screen --- */
+.first-screen{
+  background-color: #252527;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.first-screen__text h1{
+color: white;
+font-size: 45px;
+font-weight: 400;
+
+}
+
+.first-screen__text p{
+font-size: 16px;
+color: white;
+}
+
+.first-screen__body{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* --- Skills --- */
+.skills{
+  background-color: rgba(64, 0, 255, 0.662);
+}
+
+/* --- Resume --- */
+
+.resume{
+  background-color: rgba(252, 88, 113, 0.505)
+}
+
+/*Works*/
+
+.works{
+  background-color: rgba(7, 221, 60, 0.505)
+}
+
+/*my contacts*/
+
+.contacts{
+  background-color: rgba(0, 0, 0, 0.505)
+}
+
+
+/* Button */
+
+
+
+.btn3{
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.btn3:hover{
+  box-shadow: 5px 5px 10px #4b4b4b;
+  transition: 0.3s;
+}
+
+.black{
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+
+.btn1{
+  padding: 8px 18px;
+  background-color: white;
+  color:black;
+  font-size: 20px;
+  border-radius: 15px;
+  transition: 1s;
+}
+
+.blueviolet{
+  color: white;
+  background-color: blueviolet;
+  transition: 0.5s;
+}
+
+.btn1:hover{
+  box-shadow: 7px 8px 10px blueviolet;
+  transition: 0.5;
+}
+
+.btn2{
+  padding: 5px 20px;
+  background-color: white;
+  color: black;
+  font-size: 17px;
+  border-radius: 15px;
+  transition: 0.4;
+}
+
+.green{
+  color: white;
+  background-color: green;
+  transition: 0.5s;
+}
+
+.btn2:hover{
+box-shadow: 5px 5px 15px green;
+transition: 0.3s;
+
+
+}
+
