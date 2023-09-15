@@ -34,6 +34,11 @@ p{
   color:rgb(207, 6, 6)
 }
 
+section{
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
 
 /* --- Menu --- */
 
@@ -89,7 +94,6 @@ p{
 }
 
 
-
 /* --- First screen --- */
 .first-screen{
   background-color: #252527;
@@ -133,29 +137,95 @@ color: white;
 
 /* --- Skills --- */
 .skills{
-  padding: 400px 0;
-  background-color: rgba(64, 0, 255, 0.662);
+  background-color: #1f1f20;
 }
+
+
+
+.skills__title{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skills__decor-line{
+  margin-top: 20px;
+  width: 100px;
+  height: 2px;
+  background-color: #4f93e5;
+  margin: 20px auto 0 auto;
+}
+
+
+.skills-item{
+  background-color: darkorange;
+  width: 300px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+
+
 
 /* --- Resume --- */
 
 .resume{
-    padding: 400px 0;
   background-color: rgba(252, 88, 113, 0.505)
+}
+
+.resume__title {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.resume__decor-line {
+  margin-top: 20px;
+  width: 100px;
+  height: 2px;
+  background-color: #4f93e5;
+  margin: 20px auto 0 auto;
 }
 
 /*Works*/
 
 .works{
-    padding: 400px 0;
   background-color: rgba(7, 221, 60, 0.505)
+
 }
+.works__title {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.works__decor-line {
+  margin-top: 20px;
+  width: 100px;
+  height: 2px;
+  background-color: #4f93e5;
+  margin: 20px auto 0 auto;
+}
+
+
 
 /*my contacts*/
 
 .contacts{
-    padding: 400px 0;
   background-color: rgba(0, 0, 0, 0.505)
+}
+.contacts__title {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contacts__decor-line {
+  margin-top: 20px;
+  width: 100px;
+  height: 2px;
+  background-color: #4f93e5;
+  margin: 20px auto 0 auto;
 }
 
 
